@@ -1,0 +1,66 @@
+h1, h2, p{
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+hr{
+    border-top-color: aliceblue;
+  }
+
+#about{
+    padding: 2rem;
+    background-color: #393e46;
+    justify-content: center;
+    text-align: center;
+}
+
+#portfolio{
+    background-color: #00adb5;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.navbar-nav{
+    font-size: large;
+    font-weight: bold;
+    flex-direction: row;
+    padding: 0;
+}
+
+.nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.img-fluid{
+    padding-top: 3rem;
+    height: 15rem;
+    width: 12rem;
+}
+
+.row{
+    padding: 1.25rem 3rem 2.5rem 3rem;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: aliceblue;
+}
+
+.btn{
+    background-color: #00adb5;
+}
+
+@media only screen and (max-width: 600px) {
+    /* .navbar-brand{
+        padding-left: 6rem;
+    } */
+    .card{
+        margin: .75rem;
+    }
+    .row{
+        padding: 0;
+    }
+}
+
+
