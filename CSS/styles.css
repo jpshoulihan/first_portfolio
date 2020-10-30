@@ -1,11 +1,24 @@
-h1, h2, p{
-    color: aliceblue;
+h1, h2, h5, p{
+    color: #eeeeee;
     font-weight: lighter;
 }
 
 hr{
-    border-top-color: aliceblue;
+    border-top-color:#eeeeee;
   }
+
+.img-fluid{
+    height: 8rem;
+    width: 8rem;
+    margin: 2rem;
+    border-radius: 5%;
+    box-shadow: 8px 7px 8px 3px rgba(34,40,49,0.86);
+}
+
+i{
+    margin: 2rem .5rem 2rem .5rem;
+}
+
 
 #about{
     padding: 2rem;
@@ -20,6 +33,18 @@ hr{
     padding-top: 4rem;
 }
 
+#contact{
+    background-color: #393e46;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#contact a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+
 .navbar-nav{
     font-size: large;
     font-weight: bold;
@@ -32,19 +57,14 @@ hr{
     padding-right: 1rem;
 }
 
-.img-fluid{
-    padding-top: 3rem;
-    height: 15rem;
-    width: 12rem;
-}
-
 .row{
     padding: 1.25rem 3rem 2.5rem 3rem;
     justify-content: space-around;
 }
 
 .card{
-    background-color: aliceblue;
+    box-shadow: 8px 7px 8px 3px rgba(34,40,49,0.86);
+    background-color:  #393e46;
 }
 
 .btn{
@@ -52,14 +72,17 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
-    /* .navbar-brand{
-        padding-left: 6rem;
-    } */
+    .navbar-brand{
+        padding-left:8rem;
+    }
+    .nav-item{
+        padding-left: 2rem;
+    }
     .card{
-        margin: .75rem;
+        margin: 1rem;
     }
     .row{
-        padding: 0;
+        padding: 1rem;
     }
 }
 
