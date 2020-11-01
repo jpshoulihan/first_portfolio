@@ -1,3 +1,13 @@
+.container-fluid{
+    margin:0;
+    padding:0;
+    }
+
+.row{
+    margin: 0;
+    padding: 1.5rem;
+}
+
 h1, h2, h5, p{
     color: #eeeeee;
     font-weight: lighter;
@@ -33,6 +43,10 @@ i{
     padding-top: 4rem;
 }
 
+#portfolio h1{
+    padding-bottom: 2rem;
+}
+
 #contact{
     background-color: #393e46;
     padding-top: 1.5rem;
@@ -55,10 +69,6 @@ i{
 .nav-item{
     padding-left: 1rem;
     padding-right: 1rem;
-}
-
-.row{
-    padding: 1.25rem;
 }
 
 .card{
