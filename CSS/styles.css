@@ -58,13 +58,12 @@ i{
 }
 
 .row{
-    padding: 1.25rem 3rem 2.5rem 3rem;
-    justify-content: space-around;
+    padding: 1.25rem;
 }
 
 .card{
-    box-shadow: 8px 7px 8px 3px rgba(34,40,49,0.86);
     background-color:  #393e46;
+    box-shadow: 8px 7px 8px 3px rgba(34,40,49,0.86);
 }
 
 .btn{
